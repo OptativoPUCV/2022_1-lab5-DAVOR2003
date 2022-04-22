@@ -76,11 +76,11 @@ Pair * searchTreeMap(TreeMap * tree, void* key) {
   int i=1;
   while(i!=0){
     if(tree->current==NULL)return NULL;
-    int a =is_equal(tree,key,tree->current);
+    int a =is_equal(tree,key,tree->current->pair->key);
     if(a==1){
       i=0;
     }
-    int ama = tree->lower_than(key,tree->current);
+    int ama = tree->lower_than(key,tree->current->pair->key);
     if(ama==1){
       tree->current=tree->current->left; 
     }else{
