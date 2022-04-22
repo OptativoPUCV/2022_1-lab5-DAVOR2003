@@ -104,3 +104,9 @@ treemap.c:83:9: error: unused variable ‘ama’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 9a5aa80
+Fri 22 Apr 2022 03:43:47 PM UTC: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  4|7
+total_score: 5/70
+c74fffc

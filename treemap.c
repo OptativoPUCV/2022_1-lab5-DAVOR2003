@@ -80,7 +80,7 @@ Pair * searchTreeMap(TreeMap * tree, void* key) {
     if(a==1){
       i=0;
     }
-    int ama = tree->lower_than(key,tree->current)
+    int ama = tree->lower_than(key,tree->current);
     if(ama==1){
       tree->current=tree->current->left; 
     }else{
