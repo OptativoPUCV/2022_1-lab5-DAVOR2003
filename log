@@ -157,3 +157,8 @@ treemap.c:64:9: error: ‘resultado’ undeclared (first use in this function)
 treemap.c:64:9: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 e7343bd
+Mon 25 Apr 2022 03:25:50 AM UTC: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+ef1f3df
