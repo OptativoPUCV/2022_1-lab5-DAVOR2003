@@ -132,3 +132,17 @@ Mon 25 Apr 2022 02:56:39 AM UTC:
  tests:  11|6
 total_score: 15/70
 b1e896d
+Mon 25 Apr 2022 03:24:59 AM UTC: 
+ treemap.c | 20 +++++++++++++++++++-
+ 1 file changed, 19 insertions(+), 1 deletion(-)
+In file included from test.c:4:
+treemap.c: In function ‘insertTreeMap’:
+treemap.c:64:9: error: ‘resultado’ undeclared (first use in this function)
+   64 |     if( resultado==1){
+      |         ^~~~~~~~~
+treemap.c:64:9: note: each undeclared identifier is reported only once for each function it appears in
+treemap.c:65:23: error: ‘TreeNode’ has no member named ‘nuevoNodo’
+   65 |       tree->root->left->nuevoNodo;
+      |                       ^~
+Compilation failed
+eb59006
