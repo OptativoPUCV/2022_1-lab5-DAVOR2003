@@ -67,7 +67,7 @@ void insertTreeMap(TreeMap * tree, void* key, void * value) {
       tree->root->right=nuevoNodo;
     }
   }
-  if(tree->node==NULL)tree->root=nuevoNodo;
+  if(tree->root==NULL)tree->root=nuevoNodo;
   tree->current=nuevoNodo;
   return;
 }
