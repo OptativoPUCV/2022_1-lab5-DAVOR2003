@@ -223,3 +223,8 @@ treemap.c:51:7: note: previous definition of ‘resultado’ was here
       |       ^~~~~~~~~
 Compilation failed
 facbb22
+Mon 25 Apr 2022 03:37:56 AM UTC: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+d4be2b4
