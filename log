@@ -246,3 +246,9 @@ Mon 25 Apr 2022 03:39:02 AM UTC:
  1 file changed, 1 deletion(-)
  tests:  0|0
 a61d448
+Mon 25 Apr 2022 03:49:38 AM UTC: 
+ treemap.c | 13 ++++++++-----
+ 1 file changed, 8 insertions(+), 5 deletions(-)
+ tests:  13|5
+total_score: 15/70
+6ea34d1
