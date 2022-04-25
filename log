@@ -241,3 +241,8 @@ treemap.c:51:7: note: previous definition of ‘resultado’ was here
       |       ^~~~~~~~~
 Compilation failed
 0a2ae86
+Mon 25 Apr 2022 03:39:02 AM UTC: 
+ treemap.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  0|0
+a61d448
