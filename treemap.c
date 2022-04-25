@@ -60,7 +60,7 @@ void insertTreeMap(TreeMap * tree, void* key, void * value) {
   }
   nuevoNodo->parent=tree->root;
   
-  while(tree->root!=NULL){
+  if(tree->root!=NULL){
     if(resultado==1){
       tree->root->left=nuevoNodo;
     }else{
@@ -73,8 +73,10 @@ void insertTreeMap(TreeMap * tree, void* key, void * value) {
 }
 
 TreeNode * minimum(TreeNode * x){
-
-    return NULL;
+  whilr(x->left!=NULL){
+  x=x->left;
+  }
+  return x;
 }
 
 

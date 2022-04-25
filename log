@@ -182,3 +182,21 @@ Mon 25 Apr 2022 03:29:20 AM UTC:
  1 file changed, 1 insertion(+), 1 deletion(-)
  tests:  0|0
 0136782
+Mon 25 Apr 2022 03:30:50 AM UTC: 
+ treemap.c | 8 +++++---
+ 1 file changed, 5 insertions(+), 3 deletions(-)
+In file included from test.c:4:
+treemap.c: In function ‘minimum’:
+treemap.c:76:3: error: implicit declaration of function ‘whilr’ [-Werror=implicit-function-declaration]
+   76 |   whilr(x->left!=NULL){
+      |   ^~~~~
+treemap.c:76:23: error: expected ‘;’ before ‘{’ token
+   76 |   whilr(x->left!=NULL){
+      |                       ^
+      |                       ;
+treemap.c:80:1: error: control reaches end of non-void function [-Werror=return-type]
+   80 | }
+      | ^
+cc1: all warnings being treated as errors
+Compilation failed
+8cde561
