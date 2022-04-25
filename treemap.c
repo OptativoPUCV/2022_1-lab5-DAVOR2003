@@ -66,9 +66,11 @@ void insertTreeMap(TreeMap * tree, void* key, void * value) {
   if(AUX!=NULL){
     if(resultado==1){
       AUX->left=nuevoNodo;
-    }else{
-      AUX->right=nuevoNodo;
     }
+    if(resultado==0){
+      AUX->right=nuevoNodo;
+    } 
+    
   }
   if(AUX==NULL)tree->root=nuevoNodo;
   tree->current=nuevoNodo;
