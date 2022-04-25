@@ -62,7 +62,7 @@ void insertTreeMap(TreeMap * tree, void* key, void * value) {
   
   while(tree->root!=NULL){
     if( resultado==1){
-      tree->root->left->nuevoNodo;
+      tree->root->left=nuevoNodo;
     }else{
       tree->root->right=nuevoNodo;
     }
